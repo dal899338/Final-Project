@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Picnic</title>
+</head>
+
+<body> 
+
+<section class="text-content">
+    <h1 class="main-title"> 
+      Digital Picnic</h1>
+
+    <div class="basket-container">
+  
+     <p class="instruction-text">Click the basket to open! </p>
+     <button> Picnic Basket Here </button>
+
+    <h2> Food appears for user to eat </h2>
+    <img src="assets/img/apple.png" alt="Apple" class="food-item apple" />
+    <img src="assets/img/banana.png" alt="Banana" class="food-item banana" />
+    <img src="assets/img/juicebox.png" alt="Juice-Box" class="food-item juice" />
+</div>
+
+</section>
+
+</body>
+</html>
