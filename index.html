@@ -3,25 +3,51 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Digital Picnic</title>
+    <title>🍎🧃 Digital Picnic</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body> 
 
 <section class="text-content">
     <h1 class="main-title"> 
-      Digital Picnic</h1>
+      Digital Picnic </h1>
+
+<!-- Apple, Banana, and Juice Box hover ⋆˚꩜｡-->
+
+    <div class="apple">
+        <img src="assets/img/apple.png" alt="Apple" class="food-itemapple">
+    </div>
+
+    <div class="banana">
+        <img src="assets/img/banana.png" alt="Banana" class="food-itembanana">
+    </div>
+
+    <div class="juicebox">
+        <img src="assets/img/juicebox.png" alt="Juice Box" class="food-itemjuice">
+    </div>
 
     <div class="basket-container">
-  
-     <p class="instruction-text">Click the basket to open! </p>
-     <button> Picnic Basket Here </button>
+        <img src="assets/img/basket-closed.png" alt="Picnic Basket" class="basket" id="basket">
+    </div>
 
-    <h2> Food appears for user to eat </h2>
-    <img src="assets/img/apple.png" alt="Apple" class="food-item apple" />
-    <img src="assets/img/banana.png" alt="Banana" class="food-item banana" />
-    <img src="assets/img/juicebox.png" alt="Juice-Box" class="food-item juice" />
+<div>
+    <p class="instruction-text">Click the basket to open! </p>
 </div>
+
+<!-- Opening picnic basket -->
+<script>
+function changeImage() {
+    const img = document.getElementById("basket");
+    if (img.src = "assets/img/basket-closed.png") {
+        img.src = "assets/img/basket-open.png";
+    } else {
+        img.src = "assets/img/basket-closed.png";
+    }
+}
+document.getElementById("basket").addEventListener("click", changeImage);
+
+</script>
 
 </section>
 
