@@ -1,0 +1,105 @@
+h1 {
+    font-family: 'Helvetica Neue'; 
+    color: #fff49d;
+    height: 60vh;
+    font-size: 4rem;
+    font-weight: 800;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+body {
+    background-image: url('../img/blanket.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket-container {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.scene-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+p {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'sans-serrif';
+    height: 10vh;
+    font-size: 2.3rem;
+    color: #ffec84;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.basket {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    transition: transform 0.3s;
+}
+
+.basket:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.food-item {
+    position: absolute;
+    width: 90px;
+    transition: transform 0.2s, opacity 0.3s;
+}
+
+.food-item:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+
+.apple {
+    width: 100px;
+}
+
+.apple img {
+    float: left;
+    margin-left: 0px 0px 0px 30px;
+    width: 100px;
+    height: 90px;
+}
+
+.apple:hover {
+    transform: rotateX(2.3deg) rotateY(2deg) scale(1.02);
+}
+
+.banana img {
+    float: left;
+    margin-left: 0px 10px 10px 80px;
+    width: 100px;
+    height: 90px; 
+}
+
+.banana:hover {
+    transform: rotateX(2.3deg) rotateY(2deg) scale(1.02);
+}
+
+.juicebox img {
+    float: left;
+    margin-right: 0px 0px 0px 40px;
+    width: 120px;
+    height: 100px; 
+}
+
+.juicebox:hover {
+    transform: rotateX(2.3deg) rotateY(2deg) scale(1.02);
+}
