@@ -10,7 +10,7 @@ Project Title:
 Digital Picnic
 
 Project Description: 
-Interactive sit where users can open a picnic basket and consume food. User can make decisions to click on basket and food to consume them. 
+Interactive site where users can open a picnic basket and consume food. User can make decisions to click on basket and food to consume them. 
 
 Credits: 
 Stock images of the basket and food items. Audio used from the Webkinz' Arcade Game "Ant Mania 2" 
